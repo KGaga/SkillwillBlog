@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    background-color: #0F172A;
+}
+
+.body {
+    max-width: 1440px;
+    width: 100%;
+}
+
+/* header */
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 112px;
+    
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 800px;
+    
+}
+
+.navigation {
+    display: flex;
+    gap: 40px;
+}
+.navigation a{
+    color: white;
+    padding: 10px;
+}
+
+/* main-section */
+
+.main section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+
+.title {
+    margin-top: 110px;
+    padding:  0 144px;
+    color: var(--slate-50, #F8FAFC);
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal ;
+    margin-bottom: 83px;
+    
+}   
+
+.title span {
+    color: #16B8F3;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cards{
+    display:flex;
+    flex-direction: column;
+    
+
+
+}
+
+.card1 {    
+    display: flex;
+    width: 1150px;
+    height: 300px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    flex-shrink: 0;
+    
+    
+}
+
+.text {
+    
+    display: flex;
+    gap:25px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 44px;
+    margin-top: 40px;
+    border-radius: 20px;
+    
+    
+    
+}
+
+.text h3 {
+    padding-right: 850px;
+    color: var(--slate-50, #F8FAFC);
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text p {
+    color: var(--slate-300, #CBD5E1);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.card2 {
+    display: flex;
+    width: 1150px;
+    height: 300px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-shrink: 0;
+    
+}
+
+.card3 {
+    display: flex;
+    width: 1150px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 106px;
+    flex-shrink: 0;
+    margin-bottom: 200px;
+}
+
+.title2 {
+    color: var(--slate-50, #F8FAFC);
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+    padding-left: 130px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    padding: 100px; 
+}   
+
+.title2 span {
+    color:#16B8F3;
+    
+}
+
+.block1 {
+    width: 369px;
+    height: 518px;
+    flex-shrink: 0;
+}
+.block2 {
+    width: 369px;
+    height: 292.81px;
+    flex-shrink: 0;
+}
+.block3 {
+    width: 369px;
+    height: 292.81px;
+    flex-shrink: 0;
+}
+
+.block1 h3 {
+    width: 209.1px;
+    height: 39.713px;
+    flex-shrink: 0;
+    color: var(--slate-50, #F8FAFC);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal
+}
+
+.block1 h4{
+    display: flex;
+    width: 301px;
+    height: 79px;
+    padding-left: 60px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.block1 p {
+   padding-left: 30px;
+   color: white;
+}
+
+.block2 h3 {
+    width: 209.1px;
+    height: 39.713px;
+    flex-shrink: 0;
+    color: var(--slate-50, #F8FAFC);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal
+
+}
+
+.block2 h4 {
+    display: flex;
+    width: 301px;
+    height: 79px;
+    padding-left: 60px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+
+}
+ .block2 p {
+    padding-left: 30px;
+    color: white;
+ }
+
+ .block3 h3 {
+    width: 209.1px;
+    height: 39.713px;
+    flex-shrink: 0;
+    color: var(--slate-50, #F8FAFC);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal
+ }
+
+ .block3 h4 {
+    display: flex;
+    width: 301px;
+    height: 79px;
+    padding-left: 60px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+ }
+
+ .block3 p {
+    padding-left: 30px;
+    color: white;
+ }
+
+ /* footer  */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 600px;
+    align-items: center;
+    padding-bottom: 55px;
+    color: white;
+}
+
+
+
+
