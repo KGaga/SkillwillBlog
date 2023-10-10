@@ -40,7 +40,7 @@
 /* main-section */
 
 
-.card1 :hover {
+.card1 img:hover {
     width: 30px;
     transform: 10px;
     transition: 2s;
