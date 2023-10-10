@@ -39,6 +39,13 @@
 
 /* main-section */
 
+
+.card1 :hover {
+    width: 30px;
+    transform: 10px;
+    transition: 2s;
+}
+
 .main section {
     display: flex;
     flex-direction: column;
